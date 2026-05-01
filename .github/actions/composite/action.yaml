@@ -5,4 +5,4 @@ runs:
   steps:
     - name: Say Hello from Bash
       shell: bash
-      run: bash script-src/script.sh
+      run: echo "dont blame it on the sunshine, dont blame it on the moonlight, dont blame it on the good night, blame it on the boogie"
