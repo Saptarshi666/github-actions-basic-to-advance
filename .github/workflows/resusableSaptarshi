@@ -1,0 +1,10 @@
+name: Billie Jean workflow
+on: workflow_call
+jobs:
+  billie_jean:
+    name: Let's start the song
+    runs-on: ubuntu-latest
+    steps:
+      - name: Play the song
+        shell: bash
+        run: echo 'https://www.youtube.com/watch?v=kM5ywtImaSs'
