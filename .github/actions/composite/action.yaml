@@ -3,6 +3,8 @@ description: 'Prints message from Bash'
 runs:
   using: 'composite'
   steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
     - name: Say Hello from Bash
       shell: bash
       run: echo "dont blame it on the sunshine, dont blame it on the moonlight, dont blame it on the good night, blame it on the boogie"
